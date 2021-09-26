@@ -11,11 +11,8 @@ function Statistics({ title, stats }) {
             className={styles.item}
             key={element.id}
             style={{
-              backgroundColor: `${
-                '#' +
-                (Math.random().toString(16) + '000000')
-                  .substring(2, 8)
-                  .toUpperCase()
+              backgroundColor: `${'#' + (Math.random().toString() + '000000')
+                .substring(2, 8)
               }`,
             }}
           >
